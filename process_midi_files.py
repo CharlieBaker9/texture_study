@@ -1,5 +1,6 @@
-import mido
 from mido import MidiFile
+import pretty_midi
+import matplotlib.pyplot as plt
 
 def midi_to_notes(file_path):
   notes = []
@@ -74,6 +75,17 @@ def main():
   print("these are all of the notes that appeared in channel 2")
   print(notes_2)
   print(len(notes_2))
+
+  # Using pretty midi package for note analysis
+  midi_data = pretty_midi.PrettyMIDI(midi_file_path)
+
+  # Get chroma matrix
+  chroma_matrix = midi_data.get_chroma()
+  print(chroma_matrix)
+
+  # Get pitch transition matrix
+  matrix = midi_data.get_pitch_class_transition_matrix()
+  print(matrix)
 
 if __name__ == "__main__":
     main()
