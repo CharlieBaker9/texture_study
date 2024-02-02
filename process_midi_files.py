@@ -44,6 +44,28 @@ def main():
   notes_1.sort()
   notes_2.sort()
 
+  print("\n-------------------------------------\n")
+  print("Track information embedded within the midi file")
+  print("\n-------------------------------------\n")
+  midi = MidiFile(midi_file_path)
+  for i, track in enumerate(midi.tracks):
+    print(f"Track {i}: {track.name}")
+    
+    # Iterate through messages in the track
+    for msg in track:
+        if str(msg)[:7] == "note_on":
+          continue
+        if msg.is_meta and msg.type == 'key_signature':
+            print(f"Key Signature: {msg.key} at time {msg.time}")
+        elif msg.is_meta and msg.type == 'time_signature':
+            print(f"Time Signature: {msg.numerator}/{msg.denominator}")
+        # elif msg.is_meta and msg.type == 'set_tempo':
+        #     tempo_bpm = int(mido.tempo2bpm(msg.tempo))
+        #     print(f"Tempo: {tempo_bpm} BPM set at time {msg.time}" )
+
+  print("\n-------------------------------------\n")
+  print("Note information on piece itself")
+  print("\n-------------------------------------\n")
   print("channel 1 had " + str(count_1) + " notes in it")
   print("these are all of the notes that appeared in channel 1")
   print(notes_1)
