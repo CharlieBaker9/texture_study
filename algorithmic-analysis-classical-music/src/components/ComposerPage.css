@@ -1,0 +1,32 @@
+.composer-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.composer-header {
+  text-align: center;
+}
+
+.composer-header img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.composer-info {
+  margin-top: 20px;
+}
+
+.basic-info, .music-details {
+  margin-bottom: 20px;
+}
+
+.composer-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.chromaticism-scores, .avg-bpm, .key-changes, .leaderboard {
+  margin-bottom: 20px;
+}

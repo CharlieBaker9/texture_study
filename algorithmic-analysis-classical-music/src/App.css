@@ -1,0 +1,65 @@
+/* Home.css */
+
+body {
+  background-color: #f5f5f5;  /* Light gray background */
+  color: #333;  /* Black text color */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+.home-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;  /* White container background */
+  border-radius: 10px;  /* Soft border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Soft box shadow */
+}
+
+.main-title {
+  text-align: center;
+  color: #6f9dbc;  /* Light blue title color */
+  border-bottom: 2px solid #6f9dbc;  /* Light blue border bottom */
+  padding-bottom: 10px;
+}
+
+.period-section {
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;  /* Black period title color */
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;  /* Light gray border bottom */
+}
+
+.composer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.composer-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.composer-card {
+  width: 150px; /* Adjust the width as needed */
+  height: 225px; /* Adjust the height as needed */
+  margin: 5px; /* Add margin for spacing between cards */
+  text-align: center;
+}
+
+.composer-card img {
+  width: 100%; /* Make the image take the full width of the card */
+  height: 80%; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain the aspect ratio and cover the container */
+}
+
+.composer-name {
+  text-align: center;
+  font-weight: bold;
+}
+
