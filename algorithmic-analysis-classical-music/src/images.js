@@ -1,27 +1,48 @@
-// images.js
+import schumann from './images/Schumann.jpeg';
+import borodin from './images/borodin.jpeg';
+import clementi from './images/clementi.jpg';
+import haydn from './images/haydn.jpg';
+import mussorgsky from './images/mussorgsky.jpeg';
+import tchaikovsky from './images/tchaikovsky.jpeg';
+import albeniz from './images/albeniz.jpeg';
+import brahms from './images/brahms.jpeg';
+import debussy from './images/debussy.jpeg';
+import liszt from './images/liszt.jpeg';
+import rachmaninov from './images/rachmaninov.jpeg';
+import bach from './images/bach.jpg';
+import burgmueller from './images/burgmueller.jpeg';
+import granados from './images/granados.jpeg';
+import mendelssohn from './images/mendelssohn.jpeg';
+import ravel from './images/ravel.jpeg';
+import beethoven from './images/beethoven.jpg';
+import chopin from './images/chopin.jpeg';
+import grieg from './images/grieg.jpeg';
+import mozart from './images/mozart.jpg';
+import schubert from './images/schubert.jpeg';
 
-const images = {
-  schumann: require('./images/Schumann.jpeg').default,
-  borodin: require('./images/borodin.jpeg').default,
-  clementi: require('./images/clementi.jpg').default,
-  haydn: require('./images/haydn.jpg').default,
-  mussorgsky: require('./images/mussorgsky.jpeg').default,
-  tchaikovsky: require('./images/tchaikovsky.jpeg').default,
-  albeniz: require('./images/albeniz.jpeg').default,
-  brahms: require('./images/brahms.jpeg').default,
-  debussy: require('./images/debussy.jpeg').default,
-  liszt: require('./images/liszt.jpeg').default,
-  rachmaninov: require('./images/rachmaninov.jpeg').default,
-  bach: require('./images/bach.jpg').default,
-  burgmueller: require('./images/burgmueller.jpeg').default,
-  granados: require('./images/granados.jpeg').default,
-  mendelssohn: require('./images/mendelssohn.jpeg').default,
-  ravel: require('./images/ravel.jpeg').default,
-  beethoven: require('./images/beethoven.jpg').default,
-  chopin: require('./images/chopin.jpeg').default,
-  grieg: require('./images/grieg.jpeg').default,
-  mozart: require('./images/mozart.jpg').default,
-  schubert: require('./images/schubert.jpeg').default,
-};
+// Create an array of image objects
+const imagesMap = new Map([
+  ['schumann', schumann],
+  ['borodin', borodin],
+  ['clementi', clementi],
+  ['haydn', haydn],
+  ['mussorgsky', mussorgsky],
+  ['tchaikovsky', tchaikovsky],
+  ['albeniz', albeniz],
+  ['brahms', brahms],
+  ['debussy', debussy],
+  ['liszt', liszt],
+  ['rachmaninov', rachmaninov],
+  ['bach', bach],
+  ['burgmueller', burgmueller],
+  ['granados', granados],
+  ['mendelssohn', mendelssohn],
+  ['ravel', ravel],
+  ['beethoven', beethoven],
+  ['chopin', chopin],
+  ['grieg', grieg],
+  ['mozart', mozart],
+  ['schubert', schubert],
+]);
 
-export default images;
+export default imagesMap;
