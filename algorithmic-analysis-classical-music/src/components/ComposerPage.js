@@ -1,18 +1,30 @@
-import React from 'react';
-import './ComposerPage.css';  // Create a ComposerPage.css for styling
+import React, { useEffect, useState } from 'react';
+import './ComposerPage.css';
 
-const ComposerPage = () => {
-  // Replace the placeholder values with actual data
-  const composerData = {
-    name: 'J.S. Bach',
-    image: 'images/j-s-bach.jpg',
-    basicInfo: 'Johann Sebastian Bach (1685-1750) was a German composer and musician...',
-    musicDetails: 'Bach composed a vast amount of music, including works for organ, keyboard, and orchestral...',
-    chromaticismScores: 'Chromaticism Scores: 8.5/10',
-    avgBpm: 'Average BPM: 120',
-    keyChanges: 'Key Changes: C major, D minor, G major, A minor, ...',
-    leaderboard: 'Favorite Keys Leaderboard: C major, G major, D minor, ...',
-  };
+const ComposerPage = ({ composerName }) => {
+  const [composerData, setComposerData] = useState(null);
+
+  useEffect(() => {
+    // Fetch data from your JSON file or API using composerName
+    // For simplicity, I'll assume you have a JSON file named composers.json
+    fetch(`/path/to/composers.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        const selectedComposer = data.find((composer) => composer.name === composerName);
+
+        if (selectedComposer) {
+          setComposerData(selectedComposer);
+        } else {
+          // Handle case when composer is not found
+          console.error(`Composer '${composerName}' not found`);
+        }
+      })
+      .catch((error) => console.error('Error fetching composer data:', error));
+  }, [composerName]);
+
+  if (!composerData) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="composer-page-container">
@@ -54,9 +66,6 @@ const ComposerPage = () => {
           <p>{composerData.leaderboard}</p>
         </section>
       </div>
-
-      {/* Visualizations using matplotlib or other libraries */}
-      {/* Include components or code for matrices and histograms here */}
     </div>
   );
 };
