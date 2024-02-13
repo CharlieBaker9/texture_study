@@ -173,6 +173,27 @@ function ComposerModal({ data, onClose }) {
           ))}
         </ul>
         <p>{data.biography}</p>
+        <h3>Pieces:</h3>
+        <div>
+          {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
+            <div key={filename}>
+              <h4>{pieceInfo.title}</h4>
+              <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px' }}>
+                {pieceInfo.pitch_histogram && (
+                  <img src={`data:image/png;base64,${pieceInfo.pitch_histogram}`} alt="Pitch Histogram" style={{ maxWidth: '45%' }} />
+                )}
+                {pieceInfo.transition_matrix && (
+                  <img src={`data:image/png;base64,${pieceInfo.transition_matrix}`} alt="Transition Matrix" style={{ maxWidth: '45%' }} />
+                )}
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px' }}>
+                {pieceInfo.chroma_matrix && (
+                  <img src={`data:image/png;base64,${pieceInfo.chroma_matrix}`} alt="Chroma Matrix" style={{ maxWidth: '45%' }} />
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
