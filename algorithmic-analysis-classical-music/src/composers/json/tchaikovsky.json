@@ -8,8 +8,46 @@
     "The Nutcracker",
     "Swan Lake",
     "1812 Overture",
-    "Symphony No. 6 (Pathétique)",
+    "Symphony No. 6 (Path\u00e9tique)",
     "Eugene Onegin"
   ],
-  "biography": "Pyotr Ilyich Tchaikovsky was a Russian composer of the Romantic period, whose works are among the most popular music in the classical repertoire. He was the first Russian composer whose music made a lasting impression internationally, bolstered by his appearances as a guest conductor in Europe and the United States. Tchaikovsky was honored in 1884 by Emperor Alexander III and awarded a lifetime pension."
+  "biography": "Pyotr Ilyich Tchaikovsky was a Russian composer of the Romantic period, whose works are among the most popular music in the classical repertoire. He was the first Russian composer whose music made a lasting impression internationally, bolstered by his appearances as a guest conductor in Europe and the United States. Tchaikovsky was honored in 1884 by Emperor Alexander III and awarded a lifetime pension.",
+  "pieces": {
+    "ty_august.mid": {
+      "title": "Tschaikowsky: The Seasons: August"
+    },
+    "ty_dezember.mid": {
+      "title": "Tschaikowsky: The Seasons: December"
+    },
+    "ty_november.mid": {
+      "title": "Tschaikowsky: The Seasons: November"
+    },
+    "ty_juni.mid": {
+      "title": "Tschaikowsky: The Seasons: June"
+    },
+    "ty_april.mid": {
+      "title": "Tschaikowsky: The Seasons: April"
+    },
+    "ty_maerz.mid": {
+      "title": "Tschaikowsky: The Seasons: March"
+    },
+    "ty_februar.mid": {
+      "title": "Tschaikowsky: The Seasons: February"
+    },
+    "ty_januar.mid": {
+      "title": "Tschaikowsky: The Seasons: January"
+    },
+    "ty_juli.mid": {
+      "title": "Tschaikowsky: The Seasons: July"
+    },
+    "ty_september.mid": {
+      "title": "Tschaikowsky: The Seasons: September"
+    },
+    "ty_mai.mid": {
+      "title": "Tschaikowsky: The Seasons: May"
+    },
+    "ty_oktober.mid": {
+      "title": "Tschaikowsky: The Seasons: Oktober"
+    }
+  }
 }

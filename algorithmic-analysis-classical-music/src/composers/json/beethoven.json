@@ -11,5 +11,94 @@
     "Moonlight Sonata",
     "Missa Solemnis"
   ],
-  "biography": "Ludwig van Beethoven was a pivotal figure in the transition between the Classical and Romantic eras in classical music. He is regarded as one of the greatest composers of all time, and his works are celebrated for their intellectual depth, emotional expressiveness, and structural innovations."
+  "biography": "Ludwig van Beethoven was a pivotal figure in the transition between the Classical and Romantic eras in classical music. He is regarded as one of the greatest composers of all time, and his works are celebrated for their intellectual depth, emotional expressiveness, and structural innovations.",
+  "pieces": {
+    "waldstein_1.mid": {
+      "title": "Beethoven Sonata No. 21 C major, Waldsteinsonate 1. Movement"
+    },
+    "beethoven_opus90_2.mid": {
+      "title": "Beethoven: Sonatea Opus 90, 2. movement"
+    },
+    "waldstein_2.mid": {
+      "title": "Beethoven Sonata No. 21 C major, Waldsteinsonate 2. Movement"
+    },
+    "beethoven_opus90_1.mid": {
+      "title": "Beethoven: Sonatea Opus 90, 1. movement"
+    },
+    "waldstein_3.mid": {
+      "title": "Beethoven Sonata No. 21 C major, Waldsteinsonate 3. Movement"
+    },
+    "beethoven_opus10_2.mid": {
+      "title": "Beethoven: Sonate Nr. 5 - 2. Satz"
+    },
+    "beethoven_opus10_3.mid": {
+      "title": "Beethoven: Sonate Nr. 5 3. Satz"
+    },
+    "elise.mid": {
+      "title": "Beethoven F\u00fcr Elise"
+    },
+    "beethoven_opus10_1.mid": {
+      "title": "Beethoven: Sonate Nr. 5 - 1. Satz"
+    },
+    "appass_2.mid": {
+      "title": "Beethoven: Sonate Op. 57 (Appassionata) 2. Satz"
+    },
+    "appass_3.mid": {
+      "title": "Beethoven: Sonate Op. 57 (Appassionata) 2. Satz"
+    },
+    "appass_1.mid": {
+      "title": "Beethoven: Sonate Op. 57 (Appassionata) 1. Satz"
+    },
+    "beethoven_les_adieux_3.mid": {
+      "title": "Beethoven: Les adieux 3. Satz"
+    },
+    "pathetique_1.mid": {
+      "title": "Beethoven Sonata No. 8 C minor, Grand Sonate path\u00e9tique 1. Movement"
+    },
+    "mond_1.mid": {
+      "title": "Beethoven: Sonate Nr. 14 cis-moll, Op. 27/2 - 1. Satz"
+    },
+    "beethoven_les_adieux_2.mid": {
+      "title": "Beethoven: Sonate Les adieux No. 2"
+    },
+    "mond_3.mid": {
+      "title": "Beethoven: Sonate Nr. 14 cis-moll, Op. 27/2 - 3. Satz"
+    },
+    "pathetique_2.mid": {
+      "title": "Beethoven Sonata No. 8 C minor, Grand Sonate path\u00e9tique 2. Movement"
+    },
+    "pathetique_3.mid": {
+      "title": "Beethoven Sonata No. 8 C minor, Grand Sonate path\u00e9tique 3. Movement"
+    },
+    "mond_2.mid": {
+      "title": "Pedal"
+    },
+    "beethoven_les_adieux_1.mid": {
+      "title": "Beethoven: Les adieux  1. Satz"
+    },
+    "beethoven_opus22_1.mid": {
+      "title": "Beethoven: Grande Sonata Opus 22 1. movement"
+    },
+    "beethoven_opus22_2.mid": {
+      "title": "Beethoven: Grande Sonate Opus 22 - 2. movement"
+    },
+    "beethoven_hammerklavier_4.mid": {
+      "title": "Beethoven: Hammerklaviersonate 4. Satz"
+    },
+    "beethoven_opus22_3.mid": {
+      "title": "Beethoven: Grande Sonate Opus 22 - 3. movement"
+    },
+    "beethoven_hammerklavier_1.mid": {
+      "title": "Beethoven: Hammerklaviersonate 1. Satz"
+    },
+    "beethoven_opus22_4.mid": {
+      "title": "Beethoven: Grande Sonate Opus 22 - 4. movement"
+    },
+    "beethoven_hammerklavier_3.mid": {
+      "title": "Beethoven: Hammerklaviersonate - 3. Satz"
+    },
+    "beethoven_hammerklavier_2.mid": {
+      "title": "Beethoven: Hammerklaviersonate 2. Satz"
+    }
+  }
 }

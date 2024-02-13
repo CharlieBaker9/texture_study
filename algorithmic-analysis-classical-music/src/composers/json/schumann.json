@@ -11,5 +11,79 @@
     "Dichterliebe",
     "Piano Concerto in A minor"
   ],
-  "biography": "Robert Schumann was a German composer and influential music critic. He is widely regarded as one of the greatest composers of the Romantic era. Schumann left the study of law, intending to pursue a career as a virtuoso pianist. He had to abandon this goal due to a hand injury, turning his attention to composing. His compositions include works for piano, orchestral works, operas, and choral works as well as numerous lieder. He is particularly known for his piano music and songs."
+  "biography": "Robert Schumann was a German composer and influential music critic. He is widely regarded as one of the greatest composers of the Romantic era. Schumann left the study of law, intending to pursue a career as a virtuoso pianist. He had to abandon this goal due to a hand injury, turning his attention to composing. His compositions include works for piano, orchestral works, operas, and choral works as well as numerous lieder. He is particularly known for his piano music and songs.",
+  "pieces": {
+    "schum_abegg.mid": {
+      "title": "Schumann: Abegg-Variationen "
+    },
+    "scn68_10.mid": {
+      "title": "Schumann: Fr\u00f6hlicher Landmann"
+    },
+    "scn15_10.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn16_8.mid": {
+      "title": "Schumann: Kreisleriana Nr. 8"
+    },
+    "scn15_11.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_13.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_12.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn68_12.mid": {
+      "title": "Schumann: Knecht Ruprecht"
+    },
+    "scn15_8.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_9.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_7.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_6.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_4.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_5.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_1.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_2.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn15_3.mid": {
+      "title": "Schumann: Scenes from Childhood Op. 15"
+    },
+    "scn16_6.mid": {
+      "title": "Schumann: Kreisleriana  No. 6"
+    },
+    "scn16_7.mid": {
+      "title": "Schumann: Kreisleriana No. 7"
+    },
+    "scn16_5.mid": {
+      "title": "Schumann: Kreisleriana Part 5"
+    },
+    "scn16_4.mid": {
+      "title": "Schumann: Kreisleriana No. 4"
+    },
+    "scn16_1.mid": {
+      "title": "Schumann: Kreisleriana 1"
+    },
+    "scn16_3.mid": {
+      "title": "Schumann: Kreisleriana 3"
+    },
+    "scn16_2.mid": {
+      "title": "Schumann: Kreisleriana 2"
+    }
+  }
 }

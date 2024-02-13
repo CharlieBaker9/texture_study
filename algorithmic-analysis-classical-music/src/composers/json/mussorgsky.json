@@ -11,5 +11,31 @@
     "Khovanshchina",
     "The Nursery"
   ],
-  "biography": "Modest Mussorgsky was a Russian composer, one of the group known as 'The Five'. He was an innovator of Russian music in the romantic period. His compositions, including 'Pictures at an Exhibition', 'Boris Godunov', and 'Night on Bald Mountain', have achieved lasting fame for their vivid portrayal of Russian life and culture, as well as their experimental harmony and structure."
+  "biography": "Modest Mussorgsky was a Russian composer, one of the group known as 'The Five'. He was an innovator of Russian music in the romantic period. His compositions, including 'Pictures at an Exhibition', 'Boris Godunov', and 'Night on Bald Mountain', have achieved lasting fame for their vivid portrayal of Russian life and culture, as well as their experimental harmony and structure.",
+  "pieces": {
+    "muss_2.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (2)"
+    },
+    "muss_3.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (3)"
+    },
+    "muss_1.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (1)"
+    },
+    "muss_4.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (4)"
+    },
+    "muss_5.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (5)"
+    },
+    "muss_7.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (7)"
+    },
+    "muss_6.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (6)"
+    },
+    "muss_8.mid": {
+      "title": "Modest Mussorgski: Bilder einer Ausstellung (8)"
+    }
+  }
 }

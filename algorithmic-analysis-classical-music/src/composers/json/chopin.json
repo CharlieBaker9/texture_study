@@ -1,5 +1,5 @@
 {
-  "name": "Frédéric Chopin",
+  "name": "Fr\u00e9d\u00e9ric Chopin",
   "birth": "1810-03-01",
   "death": "1849-10-17",
   "nationality": "Polish",
@@ -11,5 +11,151 @@
     "Piano Concerto No. 1",
     "Mazurkas"
   ],
-  "biography": "Frédéric Chopin was a Polish composer and virtuoso pianist of the Romantic era who wrote primarily for solo piano. He has maintained worldwide renown as a leading musician of his era, whose poetic genius was based on a professional technique that was without equal in his generation."
+  "biography": "Fr\u00e9d\u00e9ric Chopin was a Polish composer and virtuoso pianist of the Romantic era who wrote primarily for solo piano. He has maintained worldwide renown as a leading musician of his era, whose poetic genius was based on a professional technique that was without equal in his generation.",
+  "pieces": {
+    "chpn_op23.mid": {
+      "title": "Chopin: Ballade in G minor Op. 32"
+    },
+    "chpn-p19.mid": {
+      "title": "Chopin: Prelude No.19 in Eb Major Op. 28"
+    },
+    "chpn_op7_2.mid": {
+      "title": "Chopin: Mazurka Opus 7 No 2"
+    },
+    "chpn-p18.mid": {
+      "title": "Chopin: Prelude No.18 in F Minor Op. 28"
+    },
+    "chpn-p24.mid": {
+      "title": "Chopin: Prelude No.24 in D Minor Op. 28"
+    },
+    "chpn_op7_1.mid": {
+      "title": "Chopin: Mazurka Opus 7 No 1"
+    },
+    "chpn-p23.mid": {
+      "title": "Chopin: Prelude No.23 in F Major Op. 28"
+    },
+    "chpn-p9.mid": {
+      "title": "Chopin: Prelude No.9 in E Op. 28"
+    },
+    "chpn-p8.mid": {
+      "title": "Chopin: Prelude No.8 in F#-, Op. 28"
+    },
+    "chpn-p22.mid": {
+      "title": "Chopin: Prelude No.22 in G Minor Op. 28"
+    },
+    "chpn-p20.mid": {
+      "title": "Chopin: Prelude No.20 in C Minor Op. 28"
+    },
+    "chpn-p21.mid": {
+      "title": "Chopin: Prelude No.21 in Bb Major Op. 28"
+    },
+    "chp_op18.mid": {
+      "title": "Chopin: Grande Valse Brillante in Es-Dur, Op. 18"
+    },
+    "chpn_op35_4.mid": {
+      "title": "Chopin Sonate Op. 35  4. Satz"
+    },
+    "chpn_op33_2.mid": {
+      "title": "Chopin:  Mazurka Op. 33 Nr. 2"
+    },
+    "chp_op31.mid": {
+      "title": "Chopin: Scherzo in Bb-, Op. 31"
+    },
+    "chpn_op25_e4.mid": {
+      "title": "Chopin: Etude No. 4 in A Minor Op. 25"
+    },
+    "chpn_op35_2.mid": {
+      "title": "Chopin Sonate Op. 35  2. Satz"
+    },
+    "chpn_op25_e1.mid": {
+      "title": "Chopin: Etude No.1 in Bb Major Op. 25"
+    },
+    "chpn_op33_4.mid": {
+      "title": "Chopin:  Nocturne Op. 33 Nr. 4"
+    },
+    "chpn_op53.mid": {
+      "title": "Chopin: Ballade in Ab major Op. 53"
+    },
+    "chpn_op35_3.mid": {
+      "title": "Chopin Sonate Op. 35  3. Satz"
+    },
+    "chpn_op35_1.mid": {
+      "title": "Chopin Sonate Op. 35  1. Satz"
+    },
+    "chpn_op25_e2.mid": {
+      "title": "Chopin: Etude No.2 in F Minor Op. 25"
+    },
+    "chpn_op25_e3.mid": {
+      "title": "Chopin: Etude No. 3 in F Major Op. 25"
+    },
+    "chpn_op10_e12.mid": {
+      "title": "Chopin: Etude Op, 10, No. 12"
+    },
+    "chpn_op10_e05.mid": {
+      "title": "Chopin: Etude Op, 10, No. 5"
+    },
+    "chpn_op10_e01.mid": {
+      "title": "Chopin: Etude Op, 10, No. 1"
+    },
+    "chpn_op66.mid": {
+      "title": "Chopin: Fantasie-Impormptu  C# minor Op. 66"
+    },
+    "chpn-p10.mid": {
+      "title": "Chopin: Prelude No.10 in C#-, Op. 28"
+    },
+    "chpn_op25_e12.mid": {
+      "title": "Chopin: Etude No.12 in C Minor Op. 25"
+    },
+    "chpn-p6.mid": {
+      "title": "Chopin: Prelude No.6 in B Minor, Op. 28"
+    },
+    "chpn-p7.mid": {
+      "title": "Chopin: Prelude No.7 in A, Op. 28"
+    },
+    "chpn-p11.mid": {
+      "title": "Chopin: Prelude No.11 in B, Op. 28"
+    },
+    "chpn-p13.mid": {
+      "title": "Chopin: Prelude No.13 in F# Major, Op. 28"
+    },
+    "chpn_op25_e11.mid": {
+      "title": "Chopin: Etude Op, 25, No. 11"
+    },
+    "chpn-p5.mid": {
+      "title": "Chopin: Prelude No.5 in D Major, Op. 28"
+    },
+    "chpn-p4.mid": {
+      "title": "Chopin: Prelude No.4 in E Minor, Op. 28"
+    },
+    "chpn-p12.mid": {
+      "title": "Chopin: Prelude No.12 in G# Minor, Op. 28"
+    },
+    "chpn-p16.mid": {
+      "title": "Chopin: Prelude No.16 in Bb Minor Op. 28"
+    },
+    "chpn_op27_2.mid": {
+      "title": "Chopin:  Nocturne Op. 27 Nr. 2"
+    },
+    "chpn-p1.mid": {
+      "title": "Chopin: Prelude No.1 in C, Op. 28"
+    },
+    "chpn-p17.mid": {
+      "title": "Chopin: Prelude No.17 in Ab Major Op. 28"
+    },
+    "chpn-p15.mid": {
+      "title": "Chopin: Prelude No.15 in Db Major Op. 28"
+    },
+    "chpn-p3.mid": {
+      "title": "Chopin: Prelude No.3 in G Major, Op. 28"
+    },
+    "chpn_op27_1.mid": {
+      "title": "Chopin:  Nocturne Op. 27 Nr. 1"
+    },
+    "chpn-p2.mid": {
+      "title": "Chopin: Prelude No.2 in A Minor, Op. 28"
+    },
+    "chpn-p14.mid": {
+      "title": "Chopin: Prelude No.14 in Eb Minor, Op. 28"
+    }
+  }
 }

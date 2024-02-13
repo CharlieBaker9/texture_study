@@ -11,5 +11,55 @@
     "Holberg Suite",
     "Norwegian Dances"
   ],
-  "biography": "Edvard Grieg was a Norwegian composer and pianist who composed in the Romantic period. He is best known for his Piano Concerto in A minor and his music to Henrik Ibsen's play 'Peer Gynt', which includes 'Morning Mood' and 'In the Hall of the Mountain King'. Grieg's music drew from the Norwegian folk music tradition, combining it with the Romantic music style of his time."
+  "biography": "Edvard Grieg was a Norwegian composer and pianist who composed in the Romantic period. He is best known for his Piano Concerto in A minor and his music to Henrik Ibsen's play 'Peer Gynt', which includes 'Morning Mood' and 'In the Hall of the Mountain King'. Grieg's music drew from the Norwegian folk music tradition, combining it with the Romantic music style of his time.",
+  "pieces": {
+    "grieg_kobold.mid": {
+      "title": "Grieg: Kobold, Op. 12 No. 3"
+    },
+    "grieg_halling.mid": {
+      "title": "Grieg: Lyric pieces Book II Opus 38 No. 4 - Halling"
+    },
+    "grieg_waechter.mid": {
+      "title": "Grieg: Waechterlied in E-Dur, Op. 12 No. 3"
+    },
+    "grieg_walzer.mid": {
+      "title": "Grieg: Lyric Pieces Op. 12 No. 2 Valse"
+    },
+    "grieg_butterfly.mid": {
+      "title": "Grieg: Lyric Pieces Op. 43 No. 1 - Butterfly"
+    },
+    "grieg_wanderer.mid": {
+      "title": "Grieg: Lyric pieces Op. 43 No. 2 - Solitary Traveller"
+    },
+    "grieg_album.mid": {
+      "title": "Grieg: Lyric Pieces - Album Leaf"
+    },
+    "grieg_voeglein.mid": {
+      "title": "Grieg: V\u00f6glein, Op. 43 No. 4"
+    },
+    "grieg_spring.mid": {
+      "title": "Grieg: Lyric pieces Book III - To Spring"
+    },
+    "grieg_berceuse.mid": {
+      "title": "Grieg: Berceuse"
+    },
+    "grieg_brooklet.mid": {
+      "title": "Grieg: Lyric Pieces -  Brooklet"
+    },
+    "grieg_once_upon_a_time.mid": {
+      "title": "Grieg: Lyric Pieces -  Once upon a time"
+    },
+    "grieg_march.mid": {
+      "title": "Grieg: Lyric Pieces - Norwegian March"
+    },
+    "grieg_zwerge.mid": {
+      "title": "Grieg: Zug der Zwerge, Op. 54 No. 3"
+    },
+    "grieg_wedding.mid": {
+      "title": "Grieg: Hochzeitstag auf Troldhaugen Op. 65No. 6"
+    },
+    "grieg_elfentanz.mid": {
+      "title": "Grieg: Lyric Pieces Op. 12 No. 4 Fairy Dance"
+    }
+  }
 }

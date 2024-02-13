@@ -11,5 +11,52 @@
     "Italian Symphony",
     "Songs Without Words"
   ],
-  "biography": "Jakob Ludwig Felix Mendelssohn Bartholdy, known as Felix Mendelssohn, was a German composer, pianist, organist, and conductor of the early Romantic period. Mendelssohn was a musical prodigy, and his work includes symphonies, concerti, oratorios, piano music, and chamber music. His best-known works include the overture and incidental music for 'A Midsummer Night's Dream', the Italian Symphony, the 'Scottish' Symphony, and the 'Hebrides' Overture. His mature music is often seen as a synthesis of musical forms and styles, blending classical models with Romantic expressiveness."
+  "biography": "Jakob Ludwig Felix Mendelssohn Bartholdy, known as Felix Mendelssohn, was a German composer, pianist, organist, and conductor of the early Romantic period. Mendelssohn was a musical prodigy, and his work includes symphonies, concerti, oratorios, piano music, and chamber music. His best-known works include the overture and incidental music for 'A Midsummer Night's Dream', the Italian Symphony, the 'Scottish' Symphony, and the 'Hebrides' Overture. His mature music is often seen as a synthesis of musical forms and styles, blending classical models with Romantic expressiveness.",
+  "pieces": {
+    "mendel_op19_1.mid": {
+      "title": "Mendelssohn: Song without words Opus 19 No. 1"
+    },
+    "mendel_op19_3.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 3"
+    },
+    "mendel_op19_2.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 2"
+    },
+    "mendel_op19_6.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 6"
+    },
+    "mendel_op19_5.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 5"
+    },
+    "mendel_op19_4.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 4"
+    },
+    "mendel_op62_3.mid": {
+      "title": "Mendelssohn: Songs without Words, Op. 62 No. 3"
+    },
+    "mendel_op62_4.mid": {
+      "title": "Mendelssohn: Songs without Words, Op. 62 No. 4"
+    },
+    "mendel_op62_5.mid": {
+      "title": "Mendelssohn: Songs without Words, Op. 62 No. 5"
+    },
+    "mendel_op53_5.mid": {
+      "title": "Mendelssohn: Songs without Words, Op. 53 No. 5"
+    },
+    "mendel_op30_5.mid": {
+      "title": "Mendelssohn: Songs without words Opus 30 No. 5"
+    },
+    "mendel_op30_4.mid": {
+      "title": "Mendelssohn: Songs without words Opus 30 No. 4"
+    },
+    "mendel_op30_1.mid": {
+      "title": "Mendelssohn: Songs without Words, Op. 30 No. 1"
+    },
+    "mendel_op30_3.mid": {
+      "title": "Mendelssohn: Songs without words Opus 30 No. 3"
+    },
+    "mendel_op30_2.mid": {
+      "title": "Mendelssohn: Songs without words Opus 19 No. 6"
+    }
+  }
 }

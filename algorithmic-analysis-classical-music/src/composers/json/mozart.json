@@ -11,5 +11,70 @@
     "Symphony No. 40",
     "The Marriage of Figaro"
   ],
-  "biography": "A prolific and influential composer of the Classical era, Wolfgang Amadeus Mozart showed prodigious ability from his earliest childhood. Already competent on keyboard and violin, he composed from the age of five and performed before European royalty."
+  "biography": "A prolific and influential composer of the Classical era, Wolfgang Amadeus Mozart showed prodigious ability from his earliest childhood. Already competent on keyboard and violin, he composed from the age of five and performed before European royalty.",
+  "pieces": {
+    "mz_570_1.mid": {
+      "title": "Mozart: Piano sonata KV 570 1. Movement"
+    },
+    "mz_570_2.mid": {
+      "title": "Mozart: Klaviersonate KV 570 2. Satz"
+    },
+    "mz_570_3.mid": {
+      "title": "Mozart: Sonate KV 570, 3. Satz"
+    },
+    "mz_545_1.mid": {
+      "title": "Mozart: Piano Sonata KV 545  1. Movement"
+    },
+    "mz_332_3.mid": {
+      "title": "Mozart: Sonate KV 332"
+    },
+    "mz_330_1.mid": {
+      "title": "Mozart: Klaviersonate C-Dur KV 330 1. Satz"
+    },
+    "mz_332_2.mid": {
+      "title": "Mozart: Sonate KV 332"
+    },
+    "mz_545_2.mid": {
+      "title": "Mozart: Piano sonata  KV 545 2. Movement"
+    },
+    "mz_330_2.mid": {
+      "title": "Mozart: Klaviersonate C-Dur KV 330 2. Satz"
+    },
+    "mz_330_3.mid": {
+      "title": "Mozart: Klaviersonate C-Dur KV 330 3. Satz"
+    },
+    "mz_332_1.mid": {
+      "title": "Mozart: Sonate KV 332"
+    },
+    "mz_545_3.mid": {
+      "title": "Mozart: Sonate KV 541 3. Satz"
+    },
+    "mz_331_2.mid": {
+      "title": "Mozart: Sonate KV 331"
+    },
+    "mz_333_1.mid": {
+      "title": "Mozart: Klaviersonate B-Dur KV 333 1. Satz"
+    },
+    "mz_331_3.mid": {
+      "title": "Mozart: Sonate KV 331"
+    },
+    "mz_331_1.mid": {
+      "title": "Mozart: Sonate KV 331"
+    },
+    "mz_333_3.mid": {
+      "title": "Mozart: Klaviersonate B-Dur KV 333 3. Satz"
+    },
+    "mz_333_2.mid": {
+      "title": "Mozart: Klaviersonate B-Dur KV 333 2. Satz"
+    },
+    "mz_311_1.mid": {
+      "title": "Mozart: Sonate KV 311"
+    },
+    "mz_311_2.mid": {
+      "title": "Mozart: Sonate KV 311"
+    },
+    "mz_311_3.mid": {
+      "title": "Mozart: Sonate KV 311"
+    }
+  }
 }

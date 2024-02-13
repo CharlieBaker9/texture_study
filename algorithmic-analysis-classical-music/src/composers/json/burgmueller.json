@@ -1,5 +1,5 @@
 {
-  "name": "Friedrich Burgmüller",
+  "name": "Friedrich Burgm\u00fcller",
   "birth": "1806-12-04",
   "death": "1874-02-13",
   "nationality": "German",
@@ -10,5 +10,34 @@
     "Ballade",
     "La Chevaleresque"
   ],
-  "biography": "Johann Friedrich Franz Burgmüller was a German pianist and composer. He is perhaps best known for his piano works, including numerous études and pieces for students. Burgmüller's music is characterized by its melodic beauty and technical accessibility, making it popular among piano students and teachers alike."
+  "biography": "Johann Friedrich Franz Burgm\u00fcller was a German pianist and composer. He is perhaps best known for his piano works, including numerous \u00e9tudes and pieces for students. Burgm\u00fcller's music is characterized by its melodic beauty and technical accessibility, making it popular among piano students and teachers alike.",
+  "pieces": {
+    "burg_sylphen.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - The sylphs"
+    },
+    "burg_quelle.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Die Quelle"
+    },
+    "burg_perlen.mid": {
+      "title": "Burgmueller: Etueden Op. 109 - Die Perlen"
+    },
+    "burg_erwachen.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Erwachen im Walde"
+    },
+    "burg_spinnerlied.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Spinning Song"
+    },
+    "burg_geschwindigkeit.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Spinning Song"
+    },
+    "burg_gewitter.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Gewitter"
+    },
+    "burg_agitato.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Agitato"
+    },
+    "burg_trennung.mid": {
+      "title": "Buegmueller: Etueden Op. 109 - Separation"
+    }
+  }
 }

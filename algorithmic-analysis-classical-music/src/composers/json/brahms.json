@@ -11,5 +11,34 @@
     "Violin Concerto",
     "Piano Concerto No. 2"
   ],
-  "biography": "Johannes Brahms was a German composer and pianist of the Romantic period. Born in Hamburg, Brahms spent much of his professional life in Vienna, Austria. His reputation and status as a composer are such that he is sometimes grouped with Johann Sebastian Bach and Ludwig van Beethoven as one of the 'Three Bs' of music, a comment originally made by the nineteenth-century conductor Hans von Bülow."
+  "biography": "Johannes Brahms was a German composer and pianist of the Romantic period. Born in Hamburg, Brahms spent much of his professional life in Vienna, Austria. His reputation and status as a composer are such that he is sometimes grouped with Johann Sebastian Bach and Ludwig van Beethoven as one of the 'Three Bs' of music, a comment originally made by the nineteenth-century conductor Hans von B\u00fclow.",
+  "pieces": {
+    "brahms_opus1_4.mid": {
+      "title": "Brahms: Sonata in C 4. movement"
+    },
+    "brahms_opus1_2.mid": {
+      "title": "Brahms: Sonata in C 2. movement"
+    },
+    "br_rhap.mid": {
+      "title": "Rhapsodie No. 4 in Es-Dur, Op. 119"
+    },
+    "brahms_opus1_3.mid": {
+      "title": "Brahms: Sonata in C 3. movement"
+    },
+    "brahms_opus1_1.mid": {
+      "title": "Brahms: Sonata C 1. movement"
+    },
+    "brahms_opus117_1.mid": {
+      "title": "Brahms: Intermezzo Opus 117 No. 1"
+    },
+    "br_im5.mid": {
+      "title": "Brahms: Intermezzo Nr. 5, Opus 116"
+    },
+    "brahms_opus117_2.mid": {
+      "title": "Brahms: Intermezzo  Opus 117 No. 2"
+    },
+    "br_im2.mid": {
+      "title": "Fantasie No. 2 in a-moll, Op. 116"
+    }
+  }
 }

@@ -1,15 +1,59 @@
 {
-  "name": "Isaac Albéniz",
+  "name": "Isaac Alb\u00e9niz",
   "birth": "1860-05-29",
   "death": "1909-05-18",
   "nationality": "Spanish",
   "era": "Romantic",
   "notableWorks": [
     "Iberia",
-    "Suite Española",
-    "Cantos de España",
+    "Suite Espa\u00f1ola",
+    "Cantos de Espa\u00f1a",
     "Granada",
     "Asturias (Leyenda)"
   ],
-  "biography": "Isaac Albéniz was a Spanish pianist and composer best known for his piano works based on Spanish folk music. His most famous collection, 'Iberia,' is a suite of twelve piano impressions. Albéniz's music is noted for its colourful, evocative portrayal of Spanish landscapes and folklore, blending traditional Spanish melodies with impressionist influences."
+  "biography": "Isaac Alb\u00e9niz was a Spanish pianist and composer best known for his piano works based on Spanish folk music. His most famous collection, 'Iberia,' is a suite of twelve piano impressions. Alb\u00e9niz's music is noted for its colourful, evocative portrayal of Spanish landscapes and folklore, blending traditional Spanish melodies with impressionist influences.",
+  "pieces": {
+    "alb_se8.mid": {
+      "title": "Albeniz :Suite espagnole Cuba"
+    },
+    "alb_esp3.mid": {
+      "title": "Albeniz :Espana Op. 165 Malaguena"
+    },
+    "alb_se4.mid": {
+      "title": "Albeniz :Suite espagnole Cadiz"
+    },
+    "alb_se5.mid": {
+      "title": "Albeniz :Suite espagnole Asturias"
+    },
+    "alb_esp2.mid": {
+      "title": "Albeniz :Espana Op. 165 Tango"
+    },
+    "alb_se7.mid": {
+      "title": "Albeniz :Suite espagnole Castilla"
+    },
+    "alb_se6.mid": {
+      "title": "Albeniz :Suite espagnole Aragon"
+    },
+    "alb_esp1.mid": {
+      "title": "Albeniz :Espana Op. 165 Prelude"
+    },
+    "alb_esp5.mid": {
+      "title": "Albeniz :Espana Op. 165 Capricho Catalan"
+    },
+    "alb_se2.mid": {
+      "title": "Albeniz :Suite espagnole Cataluna"
+    },
+    "alb_se3.mid": {
+      "title": "Albeniz :Suite espagnole Sevilla"
+    },
+    "alb_esp4.mid": {
+      "title": "Albeniz :Espana Op. 165 Serenata"
+    },
+    "alb_esp6.mid": {
+      "title": "Albeniz :Espana Op. 165 Zortcico"
+    },
+    "alb_se1.mid": {
+      "title": "Albeniz :Suite espagnole Granada"
+    }
+  }
 }

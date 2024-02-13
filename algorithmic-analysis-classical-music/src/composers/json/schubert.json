@@ -9,7 +9,96 @@
     "Symphony No. 8 (Unfinished Symphony)",
     "Winterreise",
     "String Quintet in C major",
-    "Die schöne Müllerin"
+    "Die sch\u00f6ne M\u00fcllerin"
   ],
-  "biography": "Franz Schubert was an Austrian composer of the late Classical and early Romantic eras. Despite his short life, Schubert was incredibly prolific, composing over six hundred vocal works, as well as symphonies, operas, and a large body of chamber and piano music. His music is notable for its emotional depth, memorable melodies, and rich harmonies."
+  "biography": "Franz Schubert was an Austrian composer of the late Classical and early Romantic eras. Despite his short life, Schubert was incredibly prolific, composing over six hundred vocal works, as well as symphonies, operas, and a large body of chamber and piano music. His music is notable for its emotional depth, memorable melodies, and rich harmonies.",
+  "pieces": {
+    "schumm-1.mid": {
+      "title": "Schubert: Moment Musicau No.1 in C, Op. 94 - D 780"
+    },
+    "schumm-2.mid": {
+      "title": "Schubert: Moment Musicau No.2 in Ab, Op. 94 - D 780"
+    },
+    "schub_d960_4.mid": {
+      "title": "Schubert Sonate D960  4. Satz"
+    },
+    "schumm-3.mid": {
+      "title": "Schubert: Impromptus No.3 in f-, Op. 90 - D 899"
+    },
+    "schub_d960_1.mid": {
+      "title": "Schubert Sonate D960  1. Satz"
+    },
+    "schumm-6.mid": {
+      "title": "Schubert: Moments Musicaux No.6 in Ab, Op. 94 - D 780"
+    },
+    "schumm-4.mid": {
+      "title": "Schubert: Moment Musicau No.4 in C#- Op. 94 - D 780"
+    },
+    "schub_d960_2.mid": {
+      "title": "Schubert Sonate D960  2. Satz"
+    },
+    "schub_d960_3.mid": {
+      "title": "Schubert Sonate D960  3. Satz"
+    },
+    "schumm-5.mid": {
+      "title": "Schubert: Moment Musicau No.5 in F-, Op. 94 - D 780"
+    },
+    "schuim-4.mid": {
+      "title": "Schubert: Impromptus No.4 in Ab, Op. 90 - D 899"
+    },
+    "schuim-1.mid": {
+      "title": "Schubert: Impromptus No.1, Op. 90 - D 899"
+    },
+    "schuim-3.mid": {
+      "title": "Schubert: Impromptus No.3 , Op. 90 - D 899"
+    },
+    "schuim-2.mid": {
+      "title": "Schubert: Impromptus No.2 in Eb, Op. 90 - D 899"
+    },
+    "schubert_D850_4.mid": {
+      "title": "Schubert: Sonata D850, 4. movement"
+    },
+    "schubert_D935_4.mid": {
+      "title": "Schubert:: Impromptu D935 No. 4"
+    },
+    "schub_d760_4.mid": {
+      "title": "Schubert Wandererfantasie D760  4. Satz"
+    },
+    "schubert_D850_1.mid": {
+      "title": "Schubert: Sonata D850, 1. movement"
+    },
+    "schubert_D935_1.mid": {
+      "title": "Schubert: Impromptu No. 1 D935"
+    },
+    "schub_d760_1.mid": {
+      "title": "Schubert Wandererfantasie D760  1. Satz"
+    },
+    "schubert_D850_2.mid": {
+      "title": "Schubert: Sonata D850, 2. movement"
+    },
+    "schub_d760_3.mid": {
+      "title": "Schubert Wandererfantasie D760  3. Satz"
+    },
+    "schubert_D935_2.mid": {
+      "title": "Schubert: Impromptu D 935 No. 2"
+    },
+    "schubert_D935_3.mid": {
+      "title": "Schubert: Impromptu  D 935 No..3"
+    },
+    "schubert_D850_3.mid": {
+      "title": "Schubert: Sonata D850, 3. movement"
+    },
+    "schub_d760_2.mid": {
+      "title": "Schubert Wandererfantasie D760  2. Satz"
+    },
+    "schu_143_2.mid": {
+      "title": "Schubert: Piano sonata in G minor, Op. 143, 2. Movement"
+    },
+    "schu_143_3.mid": {
+      "title": "Schubert: Piano sonata in G minor, Op. 143, 3. Movement"
+    },
+    "schu_143_1.mid": {
+      "title": "Schubert: Piano sonata in G minor, Op. 143, 1. Movement"
+    }
+  }
 }

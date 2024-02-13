@@ -11,5 +11,16 @@
     "The Art of Fugue",
     "Goldberg Variations"
   ],
-  "biography": "Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for instrumental compositions such as the Brandenburg Concertos and the Goldberg Variations, as well as vocal music such as the Mass in B minor. Though he did not introduce new forms, he enriched the prevailing German style with a robust contrapuntal technique, an unrivalled control of harmonic and motivic organisation in composition for diverse musical genres, and the adaptation of rhythms, forms, and textures from abroad, particularly from Italy and France."
+  "biography": "Johann Sebastian Bach was a German composer and musician of the Baroque period. He is known for instrumental compositions such as the Brandenburg Concertos and the Goldberg Variations, as well as vocal music such as the Mass in B minor. Though he did not introduce new forms, he enriched the prevailing German style with a robust contrapuntal technique, an unrivalled control of harmonic and motivic organisation in composition for diverse musical genres, and the adaptation of rhythms, forms, and textures from abroad, particularly from Italy and France.",
+  "pieces": {
+    "bach_847.mid": {
+      "title": "Bach: Prelude & Fugue in C minor, BWV 847"
+    },
+    "bach_846.mid": {
+      "title": "Bach: Prelude & Fugue in C major, BWV 846"
+    },
+    "bach_850.mid": {
+      "title": "Bach: Prelude & Fugue in D major, BWV 850"
+    }
+  }
 }

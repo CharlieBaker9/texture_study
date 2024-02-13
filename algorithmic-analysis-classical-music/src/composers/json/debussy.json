@@ -11,5 +11,28 @@
     "Suite bergamasque",
     "Children's Corner"
   ],
-  "biography": "Claude Debussy was a French composer. He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term. He was among the most influential composers of the late 19th and early 20th centuries."
+  "biography": "Claude Debussy was a French composer. He is sometimes seen as the first Impressionist composer, although he vigorously rejected the term. He was among the most influential composers of the late 19th and early 20th centuries.",
+  "pieces": {
+    "deb_prel.mid": {
+      "title": "Debussy: Prelude from Suite bergamasque"
+    },
+    "debussy_cc_6.mid": {
+      "title": "Debussy: Childrens Corner 6"
+    },
+    "debussy_cc_4.mid": {
+      "title": "Debussy: Childrens Corner 4"
+    },
+    "deb_menu.mid": {
+      "title": "Debussy: Menuet from Suite bergamasque"
+    },
+    "debussy_cc_1.mid": {
+      "title": "Debussy: Childrens Corner 1"
+    },
+    "debussy_cc_2.mid": {
+      "title": "Debussy: Childrens Corner 2"
+    },
+    "debussy_cc_3.mid": {
+      "title": "Debussy: Childrens Corner 3"
+    }
+  }
 }

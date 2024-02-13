@@ -6,10 +6,60 @@
   "era": "Romantic",
   "notableWorks": [
     "Hungarian Rhapsodies",
-    "Liebesträume",
+    "Liebestr\u00e4ume",
     "La Campanella",
     "Piano Sonata in B minor",
     "Faust Symphony"
   ],
-  "biography": "Franz Liszt was a Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, and organist of the Romantic era. He is widely regarded as one of the greatest pianists of all time. His contributions to the development of the piano concerto and symphonic poem were significant. Liszt gained renown in Europe during the early nineteenth century for his virtuosic skill as a pianist. He was also a friend, musical promoter, and benefactor to many composers of his time."
+  "biography": "Franz Liszt was a Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, and organist of the Romantic era. He is widely regarded as one of the greatest pianists of all time. His contributions to the development of the piano concerto and symphonic poem were significant. Liszt gained renown in Europe during the early nineteenth century for his virtuosic skill as a pianist. He was also a friend, musical promoter, and benefactor to many composers of his time.",
+  "pieces": {
+    "liz_rhap09.mid": {
+      "title": "Liszt: Rhapsodie No. 9"
+    },
+    "liz_et_trans8.mid": {
+      "title": "Liszt: Etudes d'execution transcendante No. 8"
+    },
+    "liz_donjuan.mid": {
+      "title": "Liszt: Reminisscenes de Don Juan"
+    },
+    "liz_liebestraum.mid": {
+      "title": "Liszt: Liebestraum"
+    },
+    "liz_et2.mid": {
+      "title": "Liszt: Etude No. 2 from Grandes Etudes de Paganini"
+    },
+    "liz_et_trans5.mid": {
+      "title": "Franz Liszt: Etudes d'execution transcendante No. 5"
+    },
+    "liz_et_trans4.mid": {
+      "title": "Liszt: Etudes d'execution transcendante No. 4"
+    },
+    "liz_et3.mid": {
+      "title": "Liszt: Etude No. 3 \"La Campanella\" from Grandes Etudes de Paganini"
+    },
+    "liz_rhap12.mid": {
+      "title": "Liszt: Rhapsodie No. 12"
+    },
+    "liz_rhap10.mid": {
+      "title": "Liszt: Rhapsodie No. 10"
+    },
+    "liz_et1.mid": {
+      "title": "Liszt: Etude No. 1 from Grandes Etudes de Paganini"
+    },
+    "liz_rhap15.mid": {
+      "title": "Liszt: Rhapsodie No. 15"
+    },
+    "liz_et4.mid": {
+      "title": "Liszt: Etude No. 4 from Grandes Etudes de Paganini"
+    },
+    "liz_et5.mid": {
+      "title": "Liszt: Etude No. 5  from Grandes Etudes de Paganini"
+    },
+    "liz_rhap02.mid": {
+      "title": "Liszt: Rhapsodie No. 2"
+    },
+    "liz_et6.mid": {
+      "title": "Liszt: Etude No. 6 from Grandes Etudes de Paganini"
+    }
+  }
 }

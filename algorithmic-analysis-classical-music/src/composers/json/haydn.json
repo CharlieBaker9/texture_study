@@ -11,5 +11,70 @@
     "Emperor Quartet",
     "Piano Sonata in E flat Major"
   ],
-  "biography": "Franz Joseph Haydn was an Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets 'Father of the Symphony' and 'Father of the String Quartet'. Haydn spent much of his career as a court musician for the wealthy Esterházy family at their remote estate. This isolation from other composers and trends in music until later in his life was, he said, beneficial because it forced him to be original."
+  "biography": "Franz Joseph Haydn was an Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets 'Father of the Symphony' and 'Father of the String Quartet'. Haydn spent much of his career as a court musician for the wealthy Esterh\u00e1zy family at their remote estate. This isolation from other composers and trends in music until later in his life was, he said, beneficial because it forced him to be original.",
+  "pieces": {
+    "haydn_43_1.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:43 1. movement"
+    },
+    "haydn_43_2.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:43 2. movement"
+    },
+    "haydn_8_4.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:8 4. movement"
+    },
+    "haydn_43_3.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:43 3. movement"
+    },
+    "haydn_8_1.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:8 1. movement"
+    },
+    "haydn_8_3.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:8 3. movement"
+    },
+    "haydn_8_2.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:8 2. movement"
+    },
+    "haydn_9_3.mid": {
+      "title": "Haydn Piano Sonata in F major, 3. movement"
+    },
+    "hay_40_1.mid": {
+      "title": "Haydn: Piano sonata in G major, Hoboken XVI:40, 1. Movement"
+    },
+    "haydn_9_2.mid": {
+      "title": "Haydn Piano Sonata in F major, 2. movement"
+    },
+    "hay_40_2.mid": {
+      "title": "Haydn: Piano sonata in G major, Hoboken XVI:40, 2. Movement"
+    },
+    "haydn_9_1.mid": {
+      "title": "Haydn Piano Sonata in F major, 1. movement"
+    },
+    "haydn_7_3.mid": {
+      "title": "Haydn Piano Sonata in C major, 3. movement"
+    },
+    "haydn_7_2.mid": {
+      "title": "Haydn Piano Sonata in C major, 2. movement"
+    },
+    "haydn_7_1.mid": {
+      "title": "Haydn Piano Sonata in C major, 1. movement"
+    },
+    "haydn_33_1.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:33 1. movement"
+    },
+    "haydn_33_2.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:33 2. movement"
+    },
+    "haydn_33_3.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:33 3. movement"
+    },
+    "haydn_35_1.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:35 1. movement"
+    },
+    "haydn_35_2.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:35 2. movement"
+    },
+    "haydn_35_3.mid": {
+      "title": "Haydn: Sonata Hoboken XVI:35 3. movement"
+    }
+  }
 }
