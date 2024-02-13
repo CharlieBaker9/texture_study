@@ -161,34 +161,41 @@ function ComposerModal({ data, onClose }) {
     <div className="modal-backdrop">
       <div className="modal-content">
         <button className="close-button" onClick={onClose}>X</button>
-        <h2>{data.name}</h2>
-        <p><strong>Birth:</strong> {data.birth}</p>
-        <p><strong>Death:</strong> {data.death}</p>
-        <p><strong>Nationality:</strong> {data.nationality}</p>
-        <p><strong>Era:</strong> {data.era}</p>
-        <h3>Notable Works:</h3>
-        <ul>
-          {data.notableWorks.map((work, index) => (
-            <li key={index}>{work}</li>
-          ))}
-        </ul>
-        <p>{data.biography}</p>
-        <h3>Pieces:</h3>
-        <div>
+        <h2 className="composer-name">{data.name}</h2>
+        <div className="composer-details">
+          <div className="personal-info">
+            <p><strong>Birth:</strong> {data.birth}</p>
+            <p><strong>Death:</strong> {data.death}</p>
+            <p><strong>Nationality:</strong> {data.nationality}</p>
+            <p><strong>Era:</strong> {data.era}</p>
+          </div>
+          <div className="notable-works">
+            <h3 className="section-heading">Notable Works:</h3>
+            <ul>
+              {data.notableWorks.map((work, index) => (
+                <li key={index}>{work}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="biography">
+          <h3 className="section-heading">Biography:</h3>
+          <p>{data.biography}</p>
+        </div>
+        <h3 className="section-heading">Pieces:</h3>
+        <div className="pieces">
           {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
-            <div key={filename}>
-              <h4>{pieceInfo.title}</h4>
-              <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px' }}>
+            <div key={filename} className="piece">
+              <h4 className="piece-title">{pieceInfo.title}</h4>
+              <div className="piece-images">
                 {pieceInfo.pitch_histogram && (
-                  <img src={`data:image/png;base64,${pieceInfo.pitch_histogram}`} alt="Pitch Histogram" style={{ maxWidth: '45%' }} />
+                  <img src={`data:image/png;base64,${pieceInfo.pitch_histogram}`} alt="Pitch Histogram" className="piece-image" />
                 )}
                 {pieceInfo.transition_matrix && (
-                  <img src={`data:image/png;base64,${pieceInfo.transition_matrix}`} alt="Transition Matrix" style={{ maxWidth: '45%' }} />
+                  <img src={`data:image/png;base64,${pieceInfo.transition_matrix}`} alt="Transition Matrix" className="piece-image" />
                 )}
-              </div>
-              <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px' }}>
                 {pieceInfo.chroma_matrix && (
-                  <img src={`data:image/png;base64,${pieceInfo.chroma_matrix}`} alt="Chroma Matrix" style={{ maxWidth: '45%' }} />
+                  <img src={`data:image/png;base64,${pieceInfo.chroma_matrix}`} alt="Chroma Matrix" className="piece-image" />
                 )}
               </div>
             </div>
