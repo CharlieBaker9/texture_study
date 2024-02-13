@@ -170,7 +170,7 @@ function ComposerModal({ data, onClose }) {
             <p><strong>Era:</strong> {data.era}</p>
           </div>
           <div className="notable-works">
-            <h3 className="section-heading">Notable Works:</h3>
+            <h3 className="section-heading">Notable Works</h3>
             <ul>
               {data.notableWorks.map((work, index) => (
                 <li key={index}>{work}</li>
@@ -179,10 +179,10 @@ function ComposerModal({ data, onClose }) {
           </div>
         </div>
         <div className="biography">
-          <h3 className="section-heading">Biography:</h3>
+          <h3 className="section-heading">Biography</h3>
           <p>{data.biography}</p>
         </div>
-        <h3 className="section-heading">Pieces:</h3>
+        <h3 className="section-heading">Pieces</h3>
         <div className="pieces">
           {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
             <div key={filename} className="piece">
