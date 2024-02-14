@@ -6,21 +6,17 @@ def encode_image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
-# def extract_info(midi_filename, root_dir):
-#     base_name = os.path.splitext(midi_filename)[0]
-#     info = {}
-#     for suffix in ['textural_overlap_0', 'textural_overlap_1', 'textural_overlap_2', 'textural_overlap_3', 'textural_overlap_4', 'textural_overlap_5', 'textural_overlap_6', 'textural_overlap_7', 'textural_overlap_8']:
-#         image_filename = f"{base_name}.mid_{suffix}.png"
-#         image_path = os.path.join(root_dir, image_filename)
-#         if os.path.exists(image_path):
-#             info[suffix] = encode_image_to_base64(image_path)
-#         else:
-#             print(f"Image file not found: {image_path}")
-#     return info
-
 def extract_info(midi_filename, root_dir):
-    midi_path = os.path.join(root_dir, midi_filename)
-    return {'midi_path': midi_path}
+    base_name = os.path.splitext(midi_filename)[0]
+    info = {}
+    for suffix in ['textural_overlap_0', 'textural_overlap_1', 'textural_overlap_2', 'textural_overlap_3', 'textural_overlap_4', 'textural_overlap_5', 'textural_overlap_6', 'textural_overlap_7', 'textural_overlap_8']:
+        image_filename = f"{base_name}.mid_{suffix}.png"
+        image_path = os.path.join(root_dir, image_filename)
+        if os.path.exists(image_path):
+            info[suffix] = encode_image_to_base64(image_path)
+        else:
+            print(f"Image file not found: {image_path}")
+    return info
 
 def update_json(composer_dir, midi_file, info):
     json_path = os.path.join('..', 'algorithmic-analysis-classical-music', 'src', 'composers', 'json', f"{composer_dir}.json")
