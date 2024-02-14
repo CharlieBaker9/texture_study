@@ -1,6 +1,7 @@
 // Import necessary dependencies
 import React, { useState } from 'react';
 import './App.css';  // Import or create a Home.css for styling
+import ModalImage from 'react-modal-image';
 
 import schumannJson from './composers/json/schumann.json';
 import borodinJson from './composers/json/borodin.json';
@@ -184,22 +185,37 @@ function ComposerModal({ data, onClose }) {
         </div>
         <h3 className="section-heading">Pieces</h3>
         <div className="pieces">
-          {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
-            <div key={filename} className="piece">
-              <h4 className="piece-title">{pieceInfo.title}</h4>
-              <div className="piece-images">
-                {pieceInfo.pitch_histogram && (
-                  <img src={`data:image/png;base64,${pieceInfo.pitch_histogram}`} alt="Pitch Histogram" className="piece-image" />
-                )}
-                {pieceInfo.transition_matrix && (
-                  <img src={`data:image/png;base64,${pieceInfo.transition_matrix}`} alt="Transition Matrix" className="piece-image" />
-                )}
-                {pieceInfo.chroma_matrix && (
-                  <img src={`data:image/png;base64,${pieceInfo.chroma_matrix}`} alt="Chroma Matrix" className="piece-image" />
-                )}
-              </div>
+        {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
+          <div key={filename} className="piece">
+            <h4 className="piece-title">{pieceInfo.title}</h4>
+            <div className="piece-images">
+              {pieceInfo.pitch_histogram && (
+                <ModalImage
+                  small={`data:image/png;base64,${pieceInfo.pitch_histogram}`}
+                  large={`data:image/png;base64,${pieceInfo.pitch_histogram}`}
+                  alt="Pitch Histogram"
+                  className="piece-image"
+                />
+              )}
+              {pieceInfo.transition_matrix && (
+                <ModalImage
+                  small={`data:image/png;base64,${pieceInfo.transition_matrix}`}
+                  large={`data:image/png;base64,${pieceInfo.transition_matrix}`}
+                  alt="Transition Matrix"
+                  className="piece-image"
+                />
+              )}
+              {pieceInfo.chroma_matrix && (
+                <ModalImage
+                  small={`data:image/png;base64,${pieceInfo.chroma_matrix}`}
+                  large={`data:image/png;base64,${pieceInfo.chroma_matrix}`}
+                  alt="Chroma Matrix"
+                  className="piece-image"
+                />
+              )}
             </div>
-          ))}
+          </div>
+        ))}
         </div>
       </div>
     </div>
