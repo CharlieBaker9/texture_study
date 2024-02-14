@@ -5,7 +5,6 @@ import ModalImage from 'react-modal-image';
 
 import schumannJson from './composers/json/schumann.json';
 import borodinJson from './composers/json/borodin.json';
-import clementiJson from './composers/json/clementi.json';
 import haydnJson from './composers/json/haydn.json';
 import mussorgskyJson from './composers/json/mussorgsky.json';
 import tchaikovskyJson from './composers/json/tchaikovsky.json';
@@ -13,12 +12,10 @@ import albenizJson from './composers/json/albeniz.json';
 import brahmsJson from './composers/json/brahms.json';
 import debussyJson from './composers/json/debussy.json';
 import lisztJson from './composers/json/liszt.json';
-import rachmaninovJson from './composers/json/rachmaninov.json';
 import bachJson from './composers/json/bach.json';
 import burgmuellerJson from './composers/json/burgmueller.json';
 import granadosJson from './composers/json/granados.json';
 import mendelssohnJson from './composers/json/mendelssohn.json';
-import ravelJson from './composers/json/ravel.json';
 import beethovenJson from './composers/json/beethoven.json';
 import chopinJson from './composers/json/chopin.json';
 import griegJson from './composers/json/grieg.json';
@@ -27,7 +24,6 @@ import schubertJson from './composers/json/schubert.json';
 
 import schumann from './images/Schumann.jpeg';
 import borodin from './images/borodin.jpeg';
-import clementi from './images/clementi.jpg';
 import haydn from './images/haydn.jpg';
 import mussorgsky from './images/mussorgsky.jpeg';
 import tchaikovsky from './images/tchaikovsky.jpeg';
@@ -35,12 +31,10 @@ import albeniz from './images/albeniz.jpeg';
 import brahms from './images/brahms.jpeg';
 import debussy from './images/debussy.jpeg';
 import liszt from './images/liszt.jpeg';
-import rachmaninov from './images/rachmaninov.jpeg';
 import bach from './images/bach.jpg';
 import burgmueller from './images/burgmueller.jpeg';
 import granados from './images/granados.jpeg';
 import mendelssohn from './images/mendelssohn.jpeg';
-import ravel from './images/ravel.jpeg';
 import beethoven from './images/beethoven.jpg';
 import chopin from './images/chopin.jpeg';
 import grieg from './images/grieg.jpeg';
@@ -50,7 +44,6 @@ import schubert from './images/schubert.jpeg';
 const composerDataMap = {
   Schumann: schumannJson,
   Borodin: borodinJson,
-  Clementi: clementiJson,
   Haydn: haydnJson,
   Mussorgsky: mussorgskyJson,
   Tchaikovsky: tchaikovskyJson,
@@ -58,12 +51,10 @@ const composerDataMap = {
   Brahms: brahmsJson,
   Debussy: debussyJson,
   Liszt: lisztJson,
-  Rachmaninov: rachmaninovJson,
   Bach: bachJson,
   Burgmueller: burgmuellerJson,
   Granados: granadosJson,
   Mendelssohn: mendelssohnJson,
-  Ravel: ravelJson,
   Beethoven: beethovenJson,
   Chopin: chopinJson,
   Grieg: griegJson,
@@ -106,7 +97,6 @@ function App() {
         <div className="composer-grid">
           {/* Composer cards for the Classical period */}
           <ComposerCard key={'Beethoven'} name={'Beethoven'} image={beethoven} onClick={() => handleComposerClick('Beethoven')}/>
-          <ComposerCard key={'Clementi'} name={'Clementi'} image={clementi} onClick={() => handleComposerClick('Clementi')}/>
           <ComposerCard key={'Haydn'} name={'Haydn'} image={haydn} onClick={() => handleComposerClick('Haydn')}/>
           <ComposerCard key={'Mozart'} name={'Mozart'} image={mozart} onClick={() => handleComposerClick('Mozart')}/>
         </div>
@@ -128,8 +118,6 @@ function App() {
           <ComposerCard key={'Liszt'} name={'Liszt'} image={liszt} onClick={() => handleComposerClick('Liszt')}/>
           <ComposerCard key={'Mendelssohn'} name={'Mendelssohn'} image={mendelssohn} onClick={() => handleComposerClick('Mendelssohn')}/>
           <ComposerCard key={'Mussorgsky'} name={'Mussorgsky'} image={mussorgsky} onClick={() => handleComposerClick('Mussorgsky')}/>
-          <ComposerCard key={'Rachmaninov'} name={'Rachmaninov'} image={rachmaninov} onClick={() => handleComposerClick('Rachmaninov')}/>
-          <ComposerCard key={'Ravel'} name={'Ravel'} image={ravel} onClick={() => handleComposerClick('Ravel')}/>
           <ComposerCard key={'Schubert'} name={'Schubert'} image={schubert} onClick={() => handleComposerClick('Schubert')}/>
           <ComposerCard key={'Schumann'} name={'Schumann'} image={schumann} onClick={() => handleComposerClick('Schumann')}/>
           <ComposerCard key={'Tchaikovsky'} name={'Tchaikovsky'} image={tchaikovsky} onClick={() => handleComposerClick('Tchaikovsky')}/>
