@@ -174,3 +174,10 @@ h2 {
   max-width: 50px; /* Adjust based on your preference */
   height: auto; /* Maintain aspect ratio */
 }
+
+.generated-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px; /* Adds space between images */
+}

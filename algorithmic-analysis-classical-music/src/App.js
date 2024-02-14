@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './App.css';  // Import or create a Home.css for styling
 import ModalImage from 'react-modal-image';
+import * as Tone from 'tone';
 
 import schumannJson from './composers/json/schumann.json';
 import borodinJson from './composers/json/borodin.json';
@@ -146,6 +147,21 @@ const ComposerCard = ({name, image, onClick}) => {
 function ComposerModal({ data, onClose }) {
   if (!data) return null; // Don't render the modal if there's no data
 
+  function handlePlay(midiPath) {
+    // Ensure Tone.js is initialized with a user gesture
+    Tone.start().then(() => {
+      const audioContext = new Tone.Context();
+      // Resume the audio context
+      audioContext.resume().then(() => {
+        // Create player and load MIDI file
+        const player = new Tone.Player(midiPath).toDestination();
+        player.autostart = true; // Start playing immediately when loaded
+      }).catch(error => {
+        console.error('Failed to resume AudioContext:', error);
+      });
+    });
+  }
+
   return (
     <div className="modal-backdrop">
       <div className="modal-content">
@@ -176,6 +192,7 @@ function ComposerModal({ data, onClose }) {
         {Object.entries(data.pieces).map(([filename, pieceInfo]) => (
           <div key={filename} className="piece">
             <h4 className="piece-title">{pieceInfo.title}</h4>
+            <button onClick={() => handlePlay(pieceInfo.midi_path)}>Play MIDI</button>
             <div className="piece-images">
               {pieceInfo.pitch_histogram && (
                 <ModalImage
@@ -201,6 +218,25 @@ function ComposerModal({ data, onClose }) {
                   className="piece-image"
                 />
               )}
+            </div>
+            <div className="generated-images">
+              {pieceInfo.note_distribution && (
+                <ModalImage
+                  small={`data:image/png;base64,${pieceInfo.note_distribution}`}
+                  large={`data:image/png;base64,${pieceInfo.note_distribution}`}
+                  alt="Pitch Histogram"
+                  className="piece-image"
+                />
+              )}
+              {pieceInfo.overlap && Object.entries(pieceInfo.overlap).map(([overlapFilename, overlapImageData]) => (
+                <ModalImage
+                  key={overlapFilename}
+                  small={`data:image/png;base64,${overlapImageData}`}
+                  large={`data:image/png;base64,${overlapImageData}`}
+                  alt="Overlap Image"
+                  className="piece-image"
+                />
+              ))}
             </div>
           </div>
         ))}
